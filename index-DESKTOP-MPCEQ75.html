@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog/Grupo_5</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="barra">
+      <img src="img/thumbnail_image.png" class="logo" />
+      <h1>Hogar del Turismo Colombiano</h1>
+      <h1 class="title">Noticias del Oriente</h1>
+    </div>
+    <div class="contenedor">
+      <section class="not_1">
+        
+      </section>
+      <div class="formulario" id="formulario">
+        <form id="formularioNoticia">
+          <input type="text" id="nombreNoticia" placeholder="Nombre de la noticia" required>
+          <textarea id="contenidoNoticia" placeholder="Contenido de la noticia" required></textarea>
+          <button type="submit" class="cerrar" id="agregar">Añadir noticia</button>
+        </form>
+        <img src="img/x.png" id="cerrar" alt="">
+      </div> 
+      <div id="cuadroGrande" class="cuadro-grande">
+        <div class="contenido-cuadro">
+        </div>
+        <button id="cerrarCuadro">Cerrar</button>
+      </div>
+      <div class="contenedor_not">
+        <section class="not_2"></section>
+        <section class="not_3"></section>
+        <section class="not_4"></section>
+      </div>
+    <section>
+      <button type="submit" id="enviar">Añadir noticia</button>
+      <button class="saber_mas" id="not_1">Saber más<br><h8>sobre la primera noticia</h8></button>
+      <button class="saber_mas" id="not_2">Saber más<br><h8>sobre la segunda noticia</h8></button>
+      <button class="saber_mas" id="not_3">Saber más<br><h8>sobre la tercera noticia</h8></button>
+      <button class="saber_mas" id="not_4">Saber más<br><h8>sobre la cuarta noticia</h8></button>
+      <div class="contenedor-botones">
+        <button class="boton-principal">DESCARGAR CONTENIDOS</button>
+        <div class="opciones">
+          <button>descargar contenido primera noticia</button>
+          <button>descargar contenido segunda noticia</button>
+          <button>descargar contenido tercera noticia</button>
+          <button>descargar contenido cuarta noticia<a download href="Reactivación del turismo en Medellín y Antioquia se potencia.pdf"><br>DESCARGAR</a></button>
+        </div> 
+      </div>
+      <button class="editar" id="editar-btn">editar noticia</button>
+      <button class="eliminar" id="eliminar-btn">eliminar notiica</button>
+    </section>
+    </div>
+  </body>
+  <script src="archivo.js"></script>
+  <script src="ver.js"></script>
+  
+</html>
